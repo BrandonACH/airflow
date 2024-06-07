@@ -73,6 +73,7 @@ x-airflow-common:
     AIRFLOW__SMTP__SMTP_MAIL_FROM: ${SMTP_USER}
     #MONGODB_USERNAME: ''
     #MONGODB_PASSWORD: ''
+    AIRFLOW__SCHEDULER__PARSING_PRE_IMPORT_MODULES: False
   
     # yamllint disable rule:line-length
     # Use simple http server on scheduler for health checks
