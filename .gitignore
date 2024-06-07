@@ -3,6 +3,5 @@ dags/data/cleaned_online_retail.csv
 dags/data/online_retail.xlsx
 dags/data/transformed_online_retail.csv
 logs/
-image.png
 dags/__pycache__/assignment3.cpython-37.pyc
 dags/__pycache__/RetailTransactions.cpython-37.pyc
