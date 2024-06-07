@@ -69,11 +69,27 @@ To use this project, follow these steps:
    - **Username:** `airflow`
    - **Password:** `airflow`
 
-3. **Trigger the ETL pipeline DAG:**
+3. **Configure your MongoDB connection within Airflow**
+   
+   - Click on the "Admin" menu at the top and then select "Connections" from the dropdown menu.
+   
+   - Click the "Create" button to add a new connection.
+   
+   - Fill in the following details:
+     - **Connection Id**: Choose a unique identifier for the connection, e.g., `mongo_default`.
+     - **Connection Type**: Select `MongoDB` from the dropdown menu.
+     - **Host**: The hostname of your MongoDB server.
+     - **Login**: The username used to authenticate with the MongoDB server.
+     - **Password**: The password used to authenticate with the MongoDB server.
+     - **Extra**: {"srv": true}
+   
+   - Click the "Save" button to create the connection.
+
+4. **Trigger the ETL pipeline DAG:**
 
     From the Airflow web interface, locate the `online_retail_etl` DAG and trigger it manually to test its functionality.
 
-4. **Stop the Airflow services**
+5. **Stop the Airflow services**
 
     If you wish to stop the services, run:
 
