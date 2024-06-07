@@ -78,7 +78,6 @@ To use this project, follow these steps:
     ```bash
     docker-compose down
 
-
 ## License
 
 This project is licensed under the MIT License. See the LICENSE file for details.
