@@ -1,9 +1,6 @@
 # Assignment: Building an ETL Pipeline with Apache Airflow
 
-The following project builds an ETL pipeline using Apache Airflow that processes and
-prepares data for further ML model implementations. The dataset used is the UCI Machine
-Learning Repository’s “Online Retail” dataset, which contains transactions occurring
-between 01/12/2010 and 09/12/2011 for a UK-based and registered non-store online retail. 
+The following project involves creating an ETL pipeline using Apache Airflow to handle data from the "Online Retail" dataset sourced from the UCI Machine Learning Repository. This dataset comprises transactions from a UK-based online retail store between December 1, 2010, and December 9, 2011. The pipeline processes this data and loads it into a MongoDB database, with the intention of preparing it for subsequent ML model implementations.
 
 ![alt text](image.png)
 
