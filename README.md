@@ -49,7 +49,6 @@ To install this project and its dependencies using Docker Compose, follow these 
     ```bash
    docker-compose up airflow-init
 
-
 ## Usage
 
 To use this project, follow these steps:
