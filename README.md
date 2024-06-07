@@ -38,12 +38,17 @@ To install this project and its dependencies using Docker Compose, follow these 
 
     To generate a Gmail 16-digit App Password, please refer to this tutorial: [https://support.google.com/accounts/answer/185833?hl=en](https://support.google.com/accounts/answer/185833?hl=en)
 
-5. **Build the Docker containers**
+5. **Change email address within `airflow/dags/Retail_Transactions.py`**
+
+    Change the default email address to your own desired one. These are found inside `Retail_Transactions.py`, under `default_args` and Task 5 `success_email_task`.
+    This will be the email address where you will receive DAG runs email notifications.
+
+6. **Build the Docker containers**
 
     ```bash
    docker-compose build
 
-6. **Start the airflow services**
+7. **Start the airflow services**
 
     ```bash
    docker-compose up airflow-init
